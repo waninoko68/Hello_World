@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         t = (TextView) findViewById(R.id.textView);
         t.setText("M");
+
         Button a = (Button) findViewById(R.id.ChangeButton);
         a.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button b = (Button)findViewById(R.id.showtoastbutton);
+        /*Button b = (Button)findViewById(R.id.showtoastbutton);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"LOL",Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
         Button c = (Button)findViewById(R.id.existbutton);
         c.setOnClickListener(new View.OnClickListener() {
             @Override
